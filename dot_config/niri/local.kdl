@@ -1,0 +1,15 @@
+input {
+    touchpad {
+        tap
+        natural-scroll
+        scroll-factor 0.5
+        drag false
+        
+        // Advanced Apple Tweaks
+        click-method "clickfinger"
+        tap-button-map "left-right-middle"
+        accel-profile "flat"
+        accel-speed 0.2
+    }
+}
+
