@@ -74,6 +74,11 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+if [[ -n ${CONTAINER_ID:-} ]]; then
+      PROMPT="%F{cyan}📦 ${CONTAINER_ID}%f ${PROMPT}"
+fi
+
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
