@@ -110,3 +110,6 @@ fi
 source .alias
 
 export PATH="$HOME/.local/bin:$PATH"
+
+eval "$(atuin init zsh)"
+eval "$(zoxide init zsh)"
